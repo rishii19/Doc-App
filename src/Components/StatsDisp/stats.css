@@ -1,0 +1,34 @@
+:root {
+    --background:#F7F9FF;
+    --f_button:#172578;
+    --back_white:#f7f9ff;
+    --stat_color:#BDBDBD;
+}
+.m_card.card_active{
+    border:1px solid var(--f_button);
+    color: var(--f_button) !important;
+    font-weight: 600;
+}
+.m_card.card_active .stat_name{
+    color: var(--f_button);
+}
+.m_card{
+    background-color: red;
+    height: 85px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--f_button);
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.103);
+}
+.stat_name{
+    color: var(--stat_color);
+    font-size: 0.8rem;
+}
+.stat_val{
+    font-size: 1.6em;
+    font-weight: 400;
+}
